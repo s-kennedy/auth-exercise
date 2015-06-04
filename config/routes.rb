@@ -13,13 +13,4 @@ Rails.application.routes.draw do
   get '/profile' => 'users#show'
   get '/users' => 'users#index'
 
-  # These routes are for logging in and out.
-  # This first one renders the login form. 
-  get '/login' => 'sessions#new'
-  # This second one logs the user in
-  # and creates a session
-  post '/login' => 'sessions#create'
-  # this last one destroys the session
-  # and logs the user out
-  get '/logout' => 'sessions#delete'
 end
