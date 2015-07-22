@@ -2,8 +2,12 @@
 
 <%= form_for :user, url: '/users' do |f| %>
 
-  Name: <%= f.text_field :username %>
-  Email: <%= f.text_field :email %>
-  <%= f.submit "Submit" %>
+	<%= f.label :username %>
+	<%= f.text_field :username %>
 
+	<%= f.label :email %>
+    <%= f.text_field :email %>
+
+    <%= f.submit "Submit" %>
+    
 <% end %>
