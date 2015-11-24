@@ -1,6 +1,6 @@
 == Ironhack Auth
 
-* git clone https://github.com/s-kennedy/auth-exercise.git
+* git clone https://github.com/jalexy12/auth-exercise.git
 
 * cd auth-exercise
 
